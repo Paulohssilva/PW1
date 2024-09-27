@@ -1,0 +1,82 @@
+body{
+    font-style:tahoma;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+main{
+    background-color:maroon;
+    width:70% ;
+    position: absolute ;
+    margin-top: 0%;
+    margin-bottom: 0%;  
+    margin-right: 0%;
+    margin-left: 30%;
+    height: 100%;
+    
+}
+
+aside{background-image: url('Capas/vinho.jpg');
+    background-size: cover;
+    width:30%;
+    position:fixed;
+    margin-top:0%;
+    margin-bottom:0%;
+    margin-left: 0%;
+    margin-right: 70%;
+    height: 100%;
+     }
+    
+h1{
+    font-style: italic;
+    text-transform: uppercase;
+    border: 02px;
+    border-style: dotted;
+    color: whitesmoke;
+}
+
+    h3{
+        color: maroon;
+        background-image: url('Capas/fundo.jpg');
+    }
+    ul{
+        color: lightgrey;
+        font-size: 10pt;
+        font-weight: bold;
+        line-height: 35px;
+        list-style-image: url('Capas/check.png');
+    }
+    span{
+        text-decoration: underline;
+        color: gold;
+    }
+
+table{
+    margin: 0 auto;
+    td{
+        border: 3px dashed indianred;
+        
+     }
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+caption{
+    background-image: url('Capas/fundo.jpg');
+    opacity: 0.3;
+    color: black;
+    }
+    h1:hover{
+        background-color: crimson;
+        color: lightpink;
+        border-color: lightpink;
+    } 
+    h3:hover{
+        color:whitesmoke;
+    }
+    img:hover{
+        transform: rotate(-10deg);
+        border: 5px double gold;
+    }
